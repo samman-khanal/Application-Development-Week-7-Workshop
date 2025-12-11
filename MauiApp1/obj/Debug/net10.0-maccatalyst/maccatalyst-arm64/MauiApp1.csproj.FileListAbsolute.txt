@@ -348,3 +348,4 @@
 /Users/samman/Desktop/dotnet/maui/MauiApp1/MauiApp1/obj/Debug/net10.0-maccatalyst/maccatalyst-arm64/MauiApp1.pdb
 /Users/samman/Desktop/dotnet/maui/MauiApp1/MauiApp1/obj/Debug/net10.0-maccatalyst/maccatalyst-arm64/MauiApp1.genruntimeconfig.cache
 /Users/samman/Desktop/dotnet/maui/MauiApp1/MauiApp1/obj/Debug/net10.0-maccatalyst/maccatalyst-arm64/ref/MauiApp1.dll
+/Users/samman/Desktop/dotnet/maui/MauiApp1/MauiApp1/obj/Debug/net10.0-maccatalyst/maccatalyst-arm64/MauiApp1.sourcelink.json

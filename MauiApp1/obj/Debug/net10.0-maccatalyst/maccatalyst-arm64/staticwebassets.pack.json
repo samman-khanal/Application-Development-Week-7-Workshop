@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets/images/college.jpg"
     },
     {
+      "Id": "/Users/samman/Desktop/dotnet/maui/MauiApp1/MauiApp1/wwwroot/images/student.png",
+      "PackagePath": "staticwebassets/images/student.png"
+    },
+    {
       "Id": "/Users/samman/Desktop/dotnet/maui/MauiApp1/MauiApp1/wwwroot/index.html",
       "PackagePath": "staticwebassets/index.html"
     },

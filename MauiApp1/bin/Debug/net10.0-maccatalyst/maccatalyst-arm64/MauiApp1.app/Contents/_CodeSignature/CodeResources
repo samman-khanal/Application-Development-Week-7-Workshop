@@ -64,6 +64,10 @@
 		<data>
 		pqT7LtZqzJ9DUV7u36bWB+PnYB4=
 		</data>
+		<key>Resources/wwwroot/images/student.png</key>
+		<data>
+		OwcSHcgOA8kBnDo/6H4juPhjNog=
+		</data>
 		<key>Resources/wwwroot/index.html</key>
 		<data>
 		BxleVbyRc976UuU+2f1NRDy9h+4=
@@ -87,14 +91,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/Pmx+upwQBWRT21crJIVdGr2fTbkkuCY9B6Uo04j9mE=
+			/g5428tVcEmVCEcvDqMvAWNL1ImMJzDrRE5rxUxqxUA=
 			</data>
 		</dict>
 		<key>MonoBundle/MauiApp1.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ShG7bCygB4cu0Dq8XZwnp5NukQKhvD6SQCeQVgDTeak=
+			9l6/1ZZoDAKKTjhtYdbZtLps4WSWs3bFFCzgkvcDhl8=
 			</data>
 		</dict>
 		<key>MonoBundle/Microsoft.AspNetCore.Authorization.dll</key>
@@ -1915,6 +1919,13 @@
 			<key>hash2</key>
 			<data>
 			av5z53C6rA+iAtpkn2oCPKtlTzhT+YW0Yfz6KsTn5kg=
+			</data>
+		</dict>
+		<key>Resources/wwwroot/images/student.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vSAxRFt+FtjH3TVGtqveuj6hb7J6lHKU+eNpAFgmWuw=
 			</data>
 		</dict>
 		<key>Resources/wwwroot/index.html</key>
