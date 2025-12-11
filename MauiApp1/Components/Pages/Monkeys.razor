@@ -1,0 +1,70 @@
+@page "/monkeys"
+
+<h3>Monkey List</h3>
+
+@if (monkeys.Count == 0)
+{
+    <p style="color: black; font-weight: bold;">No monkeys found</p>
+}
+else
+{
+    <div style="display: flex; flex-wrap: wrap; gap: 20px;">
+
+        @foreach (var monkey in monkeys)
+        {
+            <div style="
+                        width: 260px;
+                        border: 2px solid #ccc;
+                        border-radius: 10px;
+                        padding: 15px;
+                        box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+                        text-align: center;
+                        ">
+
+                <img src="@monkey.Image" alt="@monkey.Name" width="230"
+                     style="border-radius: 8px;" />
+
+                <h4 style="margin-top: 10px;">@monkey.Name</h4>
+                <p style="color: gray;">@monkey.Location</p>
+
+            </div>
+        }
+    </div>
+}
+
+<p>
+    More monkeys available on this
+    <a href="https://github.com/jamesmontemagno/app-monkeys">link</a>.
+</p>
+
+@code {
+    public class Monkey
+    {
+        public string Name { get; set; }
+        public string Location { get; set; }
+        public string Image { get; set; }
+    }
+
+    List<Monkey> monkeys = new()
+    {
+        new Monkey
+        {
+            Name = "Baboon",
+            Location = "Africa & Asia",
+            Image = "https://raw.githubusercontent.com/jamesmontemagno/app-monkeys/master/baboon.jpg"
+        },
+        new Monkey
+        {
+            Name = "Capuchin Monkey",
+            Location = "Central & South America",
+            Image = "https://raw.githubusercontent.com/jamesmontemagno/app-monkeys/master/capuchin.jpg"
+        },
+        new Monkey
+        {
+            Name = "Blue Monkey",
+            Location = "Central and East Africa",
+            Image = "https://raw.githubusercontent.com/jamesmontemagno/app-monkeys/master/bluemonkey.jpg"
+        }
+    };
+
+}Ï
